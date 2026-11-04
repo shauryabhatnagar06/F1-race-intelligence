@@ -2,9 +2,8 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-DASHBOARD_URL = "https://public.tableau.com/views/Book1_17930463521270/Dashboard1?:showVizHome=no"
-STORY_URL = "https://public.tableau.com/views/Book1_17930463521270/Story1?:showVizHome=no"
-
+DASHBOARD_URL = "https://public.tableau.com/app/profile/shaurya.bhatnagar4359/viz/Book1_17937580055760/Dashboard1?publish=yes"
+STORY_URL = "https://public.tableau.com/app/profile/shaurya.bhatnagar4359/viz/Book1_17937580055760/Story1?publish=yes"
 
 @app.route("/")
 def home():
